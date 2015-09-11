@@ -1,0 +1,222 @@
+        .row
+        {
+            max-width: 100%;
+        }
+
+
+
+        .menu
+        {
+            height: auto;
+            padding: 2.5rem 3rem;
+            background-color: #292c2f;
+        }
+
+        .menu .inline-list
+        {
+            text-align: center;
+        }
+
+        .menu .inline-list li
+        {
+            display: inline-block;
+            float: none;
+        }
+
+        .menu .inline-list a
+        {
+            padding-bottom: .5rem;
+            color: #fff;
+        }
+
+        .menu .inline-list a:hover
+        {
+            transition: all .3s ease-in-out;
+
+            color: #87d37c;
+        }
+
+        .menu .inline-list .active a
+        {
+            color: #87d37c;
+        }
+
+        .menu .account
+        {
+            position: absolute;
+            top: 3%;
+            right: 3%;
+        }
+
+        .menu .account a,
+        .menu .account i
+        {
+            color: #fff;
+        }
+
+        @media only screen and (min-width: 40.063em)
+        {
+            .menu
+            {
+                height: 5rem;
+            }
+
+            .menu .inline-list
+            {
+                float: left;
+
+                margin: 0 0 0 1.5rem;
+            }
+
+            .menu a:hover
+            {
+                border-bottom: 2px solid #87d37c;
+            }
+        }
+
+        .menu .account-action
+        {
+            float: right;
+
+            margin: -.75rem 0 0 0;
+        }
+
+        .menu .account-action li
+        {
+            margin-left: .2rem;
+        }
+
+        .menu .account-action a
+        {
+            padding: .75rem 1rem;
+        }
+
+        .menu .account-action a.signup
+        {
+            font-weight: bold;
+
+            border-radius: 3px;
+            background-color: #3d4146;
+        }
+
+
+
+        .name
+        {
+            font-size: 1.5rem;
+            line-height: 1;
+
+            margin: 0 0 1rem 0;
+
+            text-align: center;
+
+            color: #fff;
+        }
+
+        .name i
+        {
+            margin-right: .5rem;
+
+            color: #87d37c;
+        }
+
+        @media only screen and (min-width: 40.063em)
+        {
+            .name
+            {
+                float: left;
+            }
+        }
+
+
+        .hero {
+
+        background: url("../img/head.jpg") no-repeat center center;
+
+        background-size: cover;
+
+        height: 52vh; }
+
+
+        .hero .intro {
+
+        padding: 3rem;
+
+        position: relative;
+
+        top: 50%;
+
+        transform: translateY(-50%); }
+
+        .hero h1 {
+
+        color: #fff;
+
+        font-size: 1.5rem;
+
+        line-height: 1.5em;
+
+        letter-spacing: -0.025em;
+
+        font-weight: 300;
+
+        text-align: center; }
+
+        .hero p {
+
+        color: #fff;
+
+        line-height: 1.75em;
+
+        font-weight: 200;
+
+        text-align: center;
+
+        margin-bottom: 2rem; }
+
+
+
+        .hero h1 {
+
+          padding-top: 4.5rem;
+
+          text-align: right;
+
+          font-size: 2.5rem; }
+
+        .hero p {
+
+          text-align: right; } }
+
+
+              /* overlay */
+
+        .overlay-fade-in .button:hover
+        {
+            box-shadow: 0 0 5px #000;
+        }
+        .overlay-fade-in:hover img
+        {
+            transform: scale(1.2);
+        }
+
+        .image-wrapper img
+        {
+            width: 400px;
+        }
+
+
+
+
+        /* Shop*/
+
+        .shop {
+          margin-top: 20px;
+        }
+
+        .shoplist {
+          margin-top: 100px;
+          margin-bottom: 50px;
+          padding-left: 70px;
+
+        }
